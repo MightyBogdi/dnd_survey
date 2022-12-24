@@ -1,3 +1,11 @@
+html 
+{
+    display: block;
+}
+head 
+{
+    display: none;
+}
 body
 {
     font-family: 'Poppins', sans-serif;
