@@ -1,13 +1,10 @@
-html 
-{
+html {
     display: block;
 }
-head 
-{
+head {
     display: none;
 }
-body
-{
+body {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
@@ -15,17 +12,54 @@ body
     color: #37af65;
     margin: 0;
 }
-.container 
-{
+.container {
     width: 100%;
     margin: 3.125rem auto 0 auto;
 }
-.header 
-{
-    display: block;
+.header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
 }
-form
-{
-    display: block;
-    margin-top: 0em;
+form {
+    background: var(--color-darkblue-alpha);
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+h1 {
+    font-weight: 400;
+    line-height: 1.2;
+}
+p {
+    font-size: 1.125rem;
+}
+h1, p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+input, button, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border: none;
+}
+.description {
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+.text-center {
+    text-align: center;
 }
